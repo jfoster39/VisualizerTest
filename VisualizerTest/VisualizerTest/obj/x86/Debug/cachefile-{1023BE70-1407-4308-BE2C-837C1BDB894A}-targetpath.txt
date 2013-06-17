@@ -1,0 +1,3 @@
+Content\song1.xnb
+Content\song1.wma
+Content\bg.xnb
