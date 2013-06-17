@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace VisualizerTest
 {
-    public class Game1 : Microsoft.Xna.Framework.Game
+    public class Visualizer : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -38,7 +38,7 @@ namespace VisualizerTest
             return average / diff;
         }
 
-        public Game1()
+        public Visualizer()
         {
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferWidth = screenWidth;

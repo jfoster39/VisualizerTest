@@ -10,9 +10,9 @@ namespace VisualizerTest
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            using (Visualizer window = new Visualizer())
             {
-                game.Run();
+                window.Run();
             }
         }
     }
